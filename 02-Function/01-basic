@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter your no."<<endl;
+    cin>>n;
+    for(int i=1; i<=n; i++){
+
+        cout<<"Nikhil Yadav"<<endl;
+    }
+        return 0;
+}
