@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std; 
+
+
+void printNumber(int num){
+    cout<< num <<endl;
+    cout<< "The address of num is " << &num <<endl;
+}
+
+int main(){
+
+    int a = 9;
+    printNumber(a);
+    cout<< "The address of a is "<< &a <<endl;
+    return 0;
+}
