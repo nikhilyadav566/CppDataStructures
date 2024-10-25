@@ -1,21 +1,20 @@
 #include<iostream>
 using namespace std;
 
-void identifyEvenOdd(int k){
-    if(k%2==0){
-        cout<<"This is even no."<<endl;
+int getEven(int num){
+    for(int i = 2; i<=num; i=i+2){
+        cout<< i <<" ";
     }
-    else{
-        cout<<"This is odd no."<<endl;
-    }
+        cout<< endl;
 }
 
-int main(){
 
+int main(){
     int n;
     cout<<"Enter your no."<<endl;
     cin>>n;
-    identifyEvenOdd(n);
-
+    int even = getEven(n);
+    cout<<"These are the even no upto the given no."<<endl;
     return 0;
+
 }
